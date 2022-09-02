@@ -62,3 +62,7 @@ body {
 .checkbox:checked + .label {
   background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
+
+.instagram {
+  background: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}

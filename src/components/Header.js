@@ -1,11 +1,9 @@
 import { useState } from "react";
 
 export default function Header() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleTheme = () => {
-    setDarkMode(!darkMode);
-
     const body = document.querySelector("body");
 
     if (darkMode) {
@@ -13,10 +11,11 @@ export default function Header() {
     } else {
       body.classList.remove("dark");
     }
+    setDarkMode(!darkMode);
   };
   return (
     <>
-      <header className="max-w-7xl mx-auto flex items-center justify-between">
+      <header className="relative z-10 max-w-7xl mx-auto flex items-center justify-between">
         <div>
           <h1 className="font-bold text-2xl text-slate-800 dark:text-white">
             Social Media Dashboard

@@ -35,7 +35,9 @@ export default function Overview() {
 
         <article className="bg-slate-200 p-5 dark:bg-slate-800 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-4">
-            <li className="text-slate-600 font-bold">Likes</li>
+            <li className="text-slate-600 font-bold dark:text-slate-400">
+              Likes
+            </li>
             <li>
               <img src={facebook} alt="Facebook" />
             </li>
@@ -53,7 +55,9 @@ export default function Overview() {
 
         <article className="bg-slate-200 p-5 dark:bg-slate-800 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-4">
-            <li className="text-slate-600 font-bold">Likes</li>
+            <li className="text-slate-600 font-bold dark:text-slate-400">
+              Likes
+            </li>
             <li>
               <img src={instagram} alt="Instagram" />
             </li>
@@ -71,7 +75,9 @@ export default function Overview() {
 
         <article className="bg-slate-200 p-5 dark:bg-slate-800 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-4">
-            <li className="text-slate-600 font-bold">Profile Views</li>
+            <li className="text-slate-600 font-bold dark:text-slate-400">
+              Profile Views
+            </li>
             <li>
               <img src={instagram} alt="Instagram" />
             </li>
@@ -89,7 +95,9 @@ export default function Overview() {
 
         <article className="bg-slate-200 p-5 dark:bg-slate-800 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-4">
-            <li className="text-slate-600 font-bold">Retweets</li>
+            <li className="text-slate-600 font-bold dark:text-slate-400">
+              Retweets
+            </li>
             <li>
               <img src={twitter} alt="Twitter" />
             </li>
@@ -107,7 +115,9 @@ export default function Overview() {
 
         <article className="bg-slate-200 p-5 dark:bg-slate-800 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-4">
-            <li className="text-slate-600 font-bold">Likes</li>
+            <li className="text-slate-600 font-bold dark:text-slate-400">
+              Likes
+            </li>
             <li>
               <img src={twitter} alt="Twitter" />
             </li>
@@ -125,7 +135,9 @@ export default function Overview() {
 
         <article className="bg-slate-200 p-5 dark:bg-slate-800 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-4">
-            <li className="text-slate-600 font-bold">Likes</li>
+            <li className="text-slate-600 font-bold dark:text-slate-400">
+              Likes
+            </li>
             <li>
               <img src={youtube} alt="Youtube" />
             </li>
