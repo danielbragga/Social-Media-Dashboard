@@ -22,7 +22,7 @@ Your users should be able to:
 
 My project is hosted on Netlify in the link below:
 
-- [Netlify](https://www.netlify.com/)
+- [Netlify](danielbragga-social-dashboard.netlify.app)
 
 ## Built with
 
